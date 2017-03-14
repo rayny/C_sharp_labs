@@ -1,15 +1,16 @@
 ﻿/*Lab_1, Author: Sergey Bronskiy*/
 
-using System; //System namespace is used here to call class Console
-
+using System; 
 namespace Lab_1
 {
     class Program
     {
-        static void Main(string[] args) //method Main is required here, it is called when program starts
-            //the Main method does not return anything in this case
+        static void Main(string[] args) 
         {
-            Console.WriteLine("Hello world!"); //method WriteLine from Console class is used to output string to stdout
+            foreach (object a in args)
+            {
+                Console.WriteLine("ARG1:"+a);
+            }
         }
     }
 }
