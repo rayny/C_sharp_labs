@@ -23,7 +23,22 @@ namespace Lab_2
             char[] c2 = new char[1];
             c2[0] = c;
             string s3 = new String(c2);
-            Console.WriteLine(s3);
+            // Console.WriteLine(s3);
+
+            double i2 = i;
+            Single i3 = (float)i2;
+            long i4 = i;
+            char c3 = (char)i;
+            i += 10000000;
+            byte by1 = (byte)i;
+            char c4 = (char)i;
+            Console.WriteLine((int)c4);
+
+
+            object o1 = i;
+
+            double i5 = i + i2 + i3;
+            Console.WriteLine(i5);
         }
     }
 }
