@@ -7,7 +7,7 @@ namespace Lab_1
     {
         static void Main(string[] args) 
         {
-            foreach (object a in args)
+            foreach (string a in args)
             {
                 Console.WriteLine("ARG1:"+a);
             }
